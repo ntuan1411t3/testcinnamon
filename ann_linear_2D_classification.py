@@ -30,7 +30,7 @@ for t in range(0, max_iter):
     w_old = w
 
     if t==max_iter-1:
-        print ("Warning, did not converge.")
+        print ("it maybe can not converge")
 
 print ("Weights found:",w)
 
